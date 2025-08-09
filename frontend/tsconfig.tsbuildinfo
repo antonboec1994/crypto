@@ -1,0 +1,22 @@
+{
+	"root": [
+		"./src/app.tsx",
+		"./src/main.tsx",
+		"./src/vite-env.d.ts",
+		"./src/api/api.ts",
+		"./src/components/applayout/appcontent.tsx",
+		"./src/components/applayout/appheader.tsx",
+		"./src/components/applayout/applayout.tsx",
+		"./src/components/applayout/appsider.tsx",
+		"./src/components/assetchart/assetchart.tsx",
+		"./src/components/assetstable/assetstable.tsx",
+		"./src/components/drawerform/drawerform.tsx",
+		"./src/components/modalcontent/modalcontent.tsx",
+		"./src/components/resultform/resultform.tsx",
+		"./src/context/cryptocontext.tsx",
+		"./src/data/data.ts",
+		"./src/utils/percentdifferenct.ts"
+	],
+	"errors": true,
+	"version": "5.7.3"
+}

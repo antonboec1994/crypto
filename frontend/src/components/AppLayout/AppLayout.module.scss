@@ -1,0 +1,40 @@
+:root {
+	--padding: 20px;
+}
+
+.layout {
+	overflow: hidden;
+	height: 100vh;
+}
+.header {
+	text-align: center;
+	color: #fff;
+	height: 60;
+	background-color: #16161c;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 0 var(--padding);
+}
+.content {
+	color: #fff;
+	background-color: #090912;
+	padding: var(--padding);
+	overflow-y: auto;
+}
+.sider {
+	color: #fff;
+	background-color: #090912;
+	padding: var(--padding);
+	width: 100% !important;
+	max-width: 30% !important;
+	flex: 1 !important;
+	border-left: 1px solid #353535;
+	overflow-y: auto;
+}
+
+.select__image {
+	width: 30px;
+	height: 30px;
+	object-fit: cover;
+}

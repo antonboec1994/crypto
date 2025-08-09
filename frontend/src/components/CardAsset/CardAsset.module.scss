@@ -1,0 +1,33 @@
+.card {
+	margin-bottom: 1rem;
+	background-color: rgba(255, 255, 255, 1);
+	border: 1px solid rgb(35, 35, 35);
+}
+.list__item {
+	span {
+		display: inline-block;
+		margin-right: 5px;
+		color: #ba0707;
+		font-weight: 700;
+	}
+}
+.delete {
+	display: block;
+	font-size: 24px;
+	margin: 15px 0 0 auto;
+	cursor: pointer;
+	transition: all 0.3s;
+	width: fit-content;
+	color: rgb(192, 109, 109);
+	background-color: transparent;
+	border: transparent;
+	box-shadow: none;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 0;
+	&:hover {
+		opacity: 0.7;
+		transform: scale(1.1);
+	}
+}

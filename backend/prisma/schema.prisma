@@ -1,0 +1,45 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Crypto {
+  id              Int      @id @default(autoincrement())
+  icon            String
+  name            String
+  symbol          String
+  rank            Int
+  price           Float
+  priceBtc        Float
+  volume          Float
+  marketCap       Float
+  availableSupply Float
+  totalSupply     Float
+  priceChange1h   Float
+  priceChange1d   Float
+  priceChange1w   Float
+  redditUrl       String?
+  websiteUrl      String?
+  twitterUrl      String?
+  contractAddress String?
+  decimals        Int?
+  explorers       String[]
+}
+
+model Users {
+  id        Int    @id @default(autoincrement())
+  email     String @unique
+  password  String
+  createdAt String
+  assets    Json?
+}

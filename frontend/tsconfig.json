@@ -1,0 +1,14 @@
+{
+	"files": [],
+	"references": [
+		{ "path": "./tsconfig.app.json" },
+		{ "path": "./tsconfig.node.json" }
+	],
+	"compilerOptions": {
+		"composite": true, // Включает поддержку project references
+		"skipLibCheck": true, // Пропускает проверку типов в библиотеках
+		"strict": true, // Строгий режим TypeScript
+		"esModuleInterop": true, // Разрешает взаимодействие с CommonJS модулями
+		"forceConsistentCasingInFileNames": true // Заставляет использовать одинаковый регистр для имён файлов
+	}
+}
