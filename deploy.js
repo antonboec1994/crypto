@@ -2,6 +2,7 @@ import http from 'http';
 import crypto from 'crypto';
 import { exec } from 'child_process';
 
+//Тест проверка
 const PORT = 3003;
 const SECRET_TOKEN = 'supersecrettoken123';
 const REPO_DIR = '/root/crypto';
