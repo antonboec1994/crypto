@@ -2,7 +2,7 @@ import http from 'http';
 import crypto from 'crypto';
 import { exec } from 'child_process';
 
-const PORT = 3004;
+const PORT = 3003;
 const SECRET_TOKEN = 'supersecrettoken123';
 const REPO_DIR = '/root/crypto';
 
